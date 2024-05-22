@@ -1,0 +1,11 @@
+.lang_wrapper {
+  width: 48px;
+  display: inline;
+}
+
+.lang_select {
+  border: none;
+  color: #737373;
+  outline: none;
+  gap: 24px;
+}

@@ -1,0 +1,49 @@
+.header {
+  max-width: 980px;
+  height: 137px;
+  padding: 16px 0px 20px 0px;
+  gap: 20px;
+}
+
+.logo_wrapper {
+  display: flex;
+  max-width: 555px;
+  /* height: 40px; */
+  gap: 40px;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+.appbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.lang_container {
+  align-items: center;
+  display: flex;
+}
+
+.vertical_line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  height: 1px;
+  background-color: #ebebeb;
+}
+
+@media screen and (max-width: 769px) {
+  .header {
+    height: 67px;
+  }
+  .vertical_line {
+    display: none;
+  }
+  .lang_container {
+    display: none;
+  }
+}

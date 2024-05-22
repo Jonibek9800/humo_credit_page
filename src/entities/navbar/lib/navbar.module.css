@@ -1,0 +1,19 @@
+.navbar_wrapper {
+  max-width: 411px;
+  height: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.nav_link {
+  text-decoration: none;
+  color: #737373;
+}
+
+@media screen and (max-width: 769px) {
+  .navbar_wrapper {
+    display: none;
+  }
+}

@@ -1,0 +1,31 @@
+.credit_header_wrapper {
+  height: 168px;
+  max-width: 980px;
+  display: flex;
+  align-items: center;
+}
+
+.credit_header {
+  height: 96px;
+}
+
+.credit_logo {
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 600;
+  color: #000;
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 769px) {
+  .credit_header_wrapper {
+    height: 128px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .credit_logo {
+    font-size: 20px;
+    line-height: 28px;
+  }
+}
