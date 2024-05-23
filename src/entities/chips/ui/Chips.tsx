@@ -1,27 +1,33 @@
 "use client";
-import Chip from "@/shared/chip/Chip";
-import { chipList } from "../model";
+import Chips from "@/shared/chips/Chips";
 import styles from "./chips.module.css";
+import { useState } from "react";
+import { chipList } from "../model";
 
-export default function Chips() {
-  const handleCLick = (e: any) => {
-    // e.target.classList.add(styles.chip_active);
-    // console.log();
+export default function ChipList() {
+  const [chipLable, setChiplable] = useState<string>("Все");
+  const handleCLick = ({ name, id }: { name: string; id: number }) => {
+    setChiplable(name);
   };
 
   return (
-    <div className={styles.chips}>
+    <Chips clases={styles.chips}>
       {chipList.map((chip) => {
         return (
-          <Chip
+          <div
+            id={chip.id.toString()}
+            onClick={(e) => handleCLick(chip)}
+            className={
+              chipLable === chip.name
+                ? `${styles.chip} ${styles.chip_active}`
+                : styles.chip
+            }
             key={chip.id}
-            title={chip.name}
-            isActiv={chip.isActive}
-            onClick={handleCLick}
-            id={chip.id}
-          />
+          >
+            {chip.name}
+          </div>
         );
       })}
-    </div>
+    </Chips>
   );
 }

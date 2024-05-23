@@ -38,7 +38,7 @@ interface IImgAtributes {
 
 interface IImg {
   id: number;
-  atributes: IImgAtributes;
+  attributes: IImgAtributes;
 }
 
 interface IAtributesImg {

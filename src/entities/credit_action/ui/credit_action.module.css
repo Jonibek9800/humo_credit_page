@@ -3,3 +3,16 @@
     max-width: 526px;
     height: 48px;
 }
+
+@media screen and (max-width: 426px) {
+    .credit_actions {
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+
+    .credit_action_send {
+        width: 96%;
+        /* margin: 0px 20px; */
+    }
+}

@@ -1,0 +1,39 @@
+.crdit_good_to_know_container {
+  height: 408px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.crdit_good_to_know_wrap {
+  max-height: 336px;
+}
+
+.good_to_know_title {
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px;
+  margin-bottom: 26px;
+  color: #000;
+}
+
+.good_to_know_chip {
+  padding: 12px 20px;
+  background-color: #f5f5f5;
+  border-radius: 24px;
+  height: 40px;
+  white-space: nowrap;
+  cursor: pointer;
+  color: #000;
+}
+
+.good_to_know_chip:hover {
+  border: 2px solid #f76935a8;
+  padding: 10px 18px;
+}
+.good_to_know_chip_active {
+  padding: 10px 18px;
+  background-color: black;
+  color: #fff;
+  border: 2px solid #f76935a8;
+}
