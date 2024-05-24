@@ -48,14 +48,12 @@
     border-radius: 32px;
   }
 }
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 450px) {
   .credit_type_card {
     flex-direction: column-reverse;
+    padding: 20px 0px;
     /* height: 528px; */
   }
-}
-
-@media screen and (max-width: 445px) {
   .cledit_baner_img {
     max-width: 304px;
     height: 200px;
@@ -65,11 +63,9 @@
     width: 100%;
     margin: 0;
   }
-  .credit_type_card {
-    padding: 20px 0px;
-  }
   .credit_action {
     width: 100%;
     align-items: center;
   }
 }
+

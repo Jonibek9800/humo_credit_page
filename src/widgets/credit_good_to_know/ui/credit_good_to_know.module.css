@@ -2,12 +2,12 @@
   height: 408px;
   padding: 10px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
 }
 
-.crdit_good_to_know_wrap {
+/* .crdit_good_to_know_wrap {
   max-height: 336px;
-}
+} */
 
 .good_to_know_title {
   font-size: 28px;
@@ -36,4 +36,12 @@
   background-color: black;
   color: #fff;
   border: 2px solid #f76935a8;
+}
+
+.chip_list{
+  max-width: 980px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #171717;
 }

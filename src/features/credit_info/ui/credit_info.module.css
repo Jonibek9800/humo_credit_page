@@ -44,7 +44,7 @@
   color: #525252;
 }
 
-@media screen and (max-width: 426px) {
+@media screen and (max-width: 450px) {
   .info_desc {
     display: none;
   }
