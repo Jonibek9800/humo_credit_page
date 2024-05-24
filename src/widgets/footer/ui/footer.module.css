@@ -1,0 +1,94 @@
+.footer {
+  max-width: 100%;
+  height: 392px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_wrapper {
+  height: 264px;
+  max-width: 980px;
+}
+
+.contact_us {
+  display: flex;
+  justify-content: space-between;
+  gap: 64px;
+}
+.store_path {
+  max-width: 260px;
+}
+.store_path_title {
+  margin-bottom: 12px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.store_path_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.app_store {
+  padding: 5px;
+  width: 124px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.google_play {
+  width: 124px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.app_gallery {
+  width: 124px;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+
+.social_net {
+  max-width: 220px;
+}
+.social_net_title {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 12px;
+}
+.social_net_content {
+  display: flex;
+  gap: 12px;
+}
+
+.contacts {
+  max-width: 372px;
+  display: flex;
+}
+.contact_phone_tjk {
+  border-bottom: solid 1px #f76835;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 5px;
+  /* margin-bottom: 12px; */
+}
+.contact_phone_tjk_info {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
