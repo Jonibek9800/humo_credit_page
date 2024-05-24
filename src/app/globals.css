@@ -1,4 +1,6 @@
-html, body, main {
+html,
+body,
+main {
   height: 100%;
 }
 
@@ -9,6 +11,7 @@ html, body, main {
   color: #737373;
   font-size: 14px;
   line-height: 16px;
+  user-select: none;
 }
 
 a {

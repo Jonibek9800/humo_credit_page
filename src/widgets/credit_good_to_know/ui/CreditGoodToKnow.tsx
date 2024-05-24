@@ -3,8 +3,7 @@ import Chips from "@/shared/chips/Chips";
 import { chipList } from "../model";
 import styles from "./credit_good_to_know.module.css";
 import { useState } from "react";
-import { Accordion } from "humo-ui";
-import { Accordions } from "@/entities/accordions";
+import { Accordions } from "@/features/accordions";
 
 export default function CrditGoodToKnow() {
   const [chipLable, setChiplable] = useState<string>("Требования к заёмщику");

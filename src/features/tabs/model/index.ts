@@ -1,4 +1,4 @@
-export const tabLinks = [
+const tabLinks = [
   {
     value: "/credit",
     lable: "Кредиты",
@@ -28,3 +28,5 @@ export const tabLinks = [
     lable: "Исламское окно",
   },
 ];
+
+export { tabLinks };

@@ -1,7 +1,6 @@
 import { ReactNode } from "react";
 import styles from "./layout.module.css";
-import HeaderWidget from "../header/HeaderWidget";
-import FooterWidget from "../footer/FooterWidget";
+import HeaderWidget from "../header/ui/Header";
 
 const WrapperLayout = ({ children }: { children: ReactNode }) => {
   return (

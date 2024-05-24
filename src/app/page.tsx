@@ -1,6 +1,6 @@
 import { instance } from "@/shared/init_axios";
 import { CreditGoodToKnow } from "@/widgets/credit_good_to_know";
-import CreditHeader from "@/widgets/credit_header/ui/CreditHeader";
+import CreditHeader from "@/widgets/credit_headerrr/ui/CreditHeader";
 import { CreditTypeCard, ICreditType } from "@/widgets/credit_type_card";
 
 interface IResponseProps {

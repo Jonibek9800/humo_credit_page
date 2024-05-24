@@ -1,16 +1,16 @@
-import NavBar from "@/entities/navbar/ui/Navbar";
 import Logo from "@/shared/logo/Logo";
 import styles from "./header.module.css";
-import Language from "@/entities/language/ui/Language";
-import TabsBar from "@/entities/tabs/ui/TabBar";
 import BurgerButton from "@/shared/burger_button/BurgerButton";
+import { Navbar } from "@/features/navbar";
+import { Language } from "@/features/language";
+import { Tabs } from "@/features/tabs";
 
 const HeaderWidget = () => {
   return (
     <header className={styles.header}>
       <div className={styles.appbar}>
         <div className={styles.logo_wrapper}>
-          <Logo /> <NavBar />
+          <Logo /> <Navbar />
         </div>
         <div className={styles.lang_container}>
           <Language />
@@ -18,7 +18,7 @@ const HeaderWidget = () => {
         <BurgerButton />
       </div>
       <hr className={styles.vertical_line} />
-      <TabsBar />
+      <Tabs />
     </header>
   );
 };

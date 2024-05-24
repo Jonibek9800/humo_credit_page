@@ -1,6 +1,6 @@
 import Link from "next/link";
-import { navLink } from "../model/navbar_link";
-import styles from "../lib/navbar.module.css";
+import { navLink } from "../model/index";
+import styles from "./navbar.module.css";
 
 const NavBar = () => {
   return (

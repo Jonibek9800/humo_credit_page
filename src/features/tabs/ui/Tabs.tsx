@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { tabLinks } from "../model/tab_links";
+import { tabLinks } from "../model/index";
 import styles from "./tabs.module.css";
 
 const TabsBar = () => {

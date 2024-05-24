@@ -1,4 +1,4 @@
-import { Chips } from "@/entities/chips";
+import { Chips } from "@/features/chips";
 import styles from "./credit.module.css";
 
 const CreditHeader = () => {

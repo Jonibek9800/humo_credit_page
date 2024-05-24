@@ -1,4 +1,4 @@
-export const navLink = [
+const navLink = [
   {
     lable: "О нас",
     key: "/about_us",
@@ -16,3 +16,5 @@ export const navLink = [
     key: "/vacancy",
   },
 ];
+
+export { navLink };

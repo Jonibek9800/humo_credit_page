@@ -1,8 +1,7 @@
 import { ICreditType } from "../model";
 import styles from "./credit_type_card.module.css";
-import { CreditAction } from "@/entities/credit_action";
-import { CreditInfo } from "@/features/credit_info";
-import { BASE_URL } from "@/shared/init_axios";
+import { CreditAction } from "@/features/credit_action";
+import { CreditInfo } from "@/entities/credit_info";
 
 export default function CreditTypeCard({ credit }: { credit: ICreditType }) {
   const imgUrl =
