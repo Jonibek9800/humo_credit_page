@@ -13,8 +13,8 @@ export default function CrditGoodToKnow() {
   };
   return (
     <div className={styles.crdit_good_to_know_container}>
+      <h1 className={styles.good_to_know_title}>Полезно знать</h1>
       <div className={styles.crdit_good_to_know_wrap}>
-        <h1 className={styles.good_to_know_title}>Полезно знать</h1>
         <Chips clases={styles.chip_list}>
           {chipList.map((chip) => {
             return (

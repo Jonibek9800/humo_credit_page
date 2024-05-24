@@ -71,11 +71,25 @@
     height: 24px;
   }
   .info_condition_item::before {
-    content: "•"; 
+    content: "•";
     position: absolute;
     left: 0px;
   }
   .info_condition_item_title {
     margin-left: 10px;
+  }
+
+  .info_condition_item_title {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #171717;
+  }
+
+  .info_condition_item_text {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #525252;
   }
 }

@@ -75,3 +75,20 @@
     transition: 0.4s ease-out;
   }
 }
+
+@media screen and (max-width: 374px) {
+  .accordion_item_panel {
+    height: 220px;
+    transition: 0.4s ease-out;
+  }
+  .accordion_item_content {
+    margin-left: 20px;
+  }
+  .accordion_item_panel_active {
+    height: 0px;
+    /* display: none; */
+    padding: 0px 20px;
+    overflow: hidden;
+    transition: 0.4s ease-out;
+  }
+}
