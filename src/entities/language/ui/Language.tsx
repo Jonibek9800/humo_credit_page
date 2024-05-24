@@ -8,7 +8,7 @@ const Language = () => {
         <select name="landuage" id="lang" className={styles.lang_select}>
           <option value="RU">RU</option>
           <option value="TJ">TJ</option>
-          <option value="US">US</option>
+          <option value="US">EN</option>
         </select>
       </div>
     </>

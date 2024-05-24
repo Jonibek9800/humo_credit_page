@@ -32,10 +32,10 @@ export default function Accordions() {
         }
       >
         <ul className={styles.accordion_item_content}>
-          <li>Физические лица старше 20 лет</li>
-          <li>Опыт работы не менее 6 месяцев</li>
-          <li>Cправка о заработной плате</li>
-          <li>Отсутствие обязательств перед третьими лицами</li>
+          <li className={styles.accordion_item_content_li}>Физические лица старше 20 лет</li>
+          <li className={styles.accordion_item_content_li}>Опыт работы не менее 6 месяцев</li>
+          <li className={styles.accordion_item_content_li}>Cправка о заработной плате</li>
+          <li className={styles.accordion_item_content_li}>Отсутствие обязательств перед третьими лицами</li>
         </ul>
       </div>
     </Accordion>

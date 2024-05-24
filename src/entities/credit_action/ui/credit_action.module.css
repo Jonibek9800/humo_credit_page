@@ -4,6 +4,10 @@
     height: 48px;
 }
 
+.credit_action_send {
+    margin-right: 26px;   
+}
+
 @media screen and (max-width: 450px) {
     .credit_actions {
         flex-direction: column;
@@ -13,6 +17,7 @@
 
     .credit_action_send {
         width: 96%;
+        margin: 0px;
         /* margin: 0px 20px; */
     }
 }

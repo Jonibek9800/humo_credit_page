@@ -6,13 +6,13 @@
 @media screen and (max-width: 980px) {
   .container {
     /* max-width: 768px; */
-    padding: 10px;
+    padding: 16px;
   }
 }
 
 @media screen and (max-width: 768px) {
     .container {
       max-width: 670px;
-      padding: 0px 10px 0px 10px;
+      padding: 16px;
     }
   }

@@ -21,7 +21,7 @@ const credits: ICreditType[] = [
         data: [
           {
             id: 1,
-            atributes: {
+            attributes: {
               name: "",
               alternativeText: "",
               caption: "",
@@ -38,7 +38,7 @@ const credits: ICreditType[] = [
                   height: 1,
                   size: 1,
                   sizeInBytes: 1,
-                  url: "",
+                  url: "/credit_one.png",
                 },
               },
               hash: "",
@@ -75,7 +75,7 @@ const credits: ICreditType[] = [
         data: [
           {
             id: 1,
-            atributes: {
+            attributes: {
               name: "",
               alternativeText: "",
               caption: "",
@@ -92,7 +92,7 @@ const credits: ICreditType[] = [
                   height: 1,
                   size: 1,
                   sizeInBytes: 1,
-                  url: "",
+                  url: "/credit_two.png",
                 },
               },
               hash: "",
@@ -129,7 +129,7 @@ const credits: ICreditType[] = [
         data: [
           {
             id: 1,
-            atributes: {
+            attributes: {
               name: "",
               alternativeText: "",
               caption: "",
@@ -146,7 +146,7 @@ const credits: ICreditType[] = [
                   height: 1,
                   size: 1,
                   sizeInBytes: 1,
-                  url: "",
+                  url: "/credit_three.png",
                 },
               },
               hash: "",

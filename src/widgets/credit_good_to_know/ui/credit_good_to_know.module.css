@@ -1,6 +1,6 @@
 .crdit_good_to_know_container {
-  height: 408px;
-  padding: 10px;
+  height: fit-content;
+  padding: 20px 10px;
   display: flex;
   flex-direction: column;
 }
@@ -38,7 +38,7 @@
   border: 2px solid #f76935a8;
 }
 
-.chip_list{
+.chip_list {
   max-width: 980px;
   font-size: 16px;
   font-weight: 400;

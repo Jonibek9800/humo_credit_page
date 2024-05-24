@@ -55,9 +55,12 @@
     /* height: 528px; */
   }
   .cledit_baner_img {
-    max-width: 304px;
+    max-width: 336px;
     height: 200px;
     border-radius: 32px;
+  }
+  .credit_baner {
+    height: 200px;
   }
   .credit_info_action {
     width: 100%;
@@ -68,4 +71,3 @@
     align-items: center;
   }
 }
-

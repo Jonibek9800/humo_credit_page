@@ -5,7 +5,8 @@ import { CreditInfo } from "@/features/credit_info";
 import { BASE_URL } from "@/shared/init_axios";
 
 export default function CreditTypeCard({ credit }: { credit: ICreditType }) {
-  const imgUrl = credit.attributes.img.data[0].attributes?.formats?.thumbnail?.url;
+  const imgUrl =
+    credit.attributes.img.data[0].attributes?.formats?.thumbnail?.url;
   console.log(imgUrl);
   return (
     <div className={styles.credit_type_card}>
@@ -16,13 +17,13 @@ export default function CreditTypeCard({ credit }: { credit: ICreditType }) {
           conditions={credit.attributes.conditions}
         />
         <div className={styles.credit_action}>
-        <CreditAction />
+          <CreditAction />
         </div>
       </div>
       <div className={styles.credit_baner}>
         <img
           className={styles.cledit_baner_img}
-          src={BASE_URL + imgUrl}
+          src={imgUrl}
           alt={credit.attributes.title}
         />
       </div>
