@@ -1,5 +1,5 @@
 .footer {
-  max-width: 100%;
+  width: 100%;
   height: 392px;
   background-color: #f5f5f5;
   display: flex;
@@ -15,7 +15,7 @@
 
 .contact_us {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   gap: 64px;
 }
 .store_path {
@@ -34,30 +34,15 @@
   gap: 12px;
 }
 
-.app_store {
+.store_btn {
   padding: 5px;
   width: 124px;
   display: flex;
   align-items: center;
+  border: none;
+  background-color: #fff;
+  border-radius: 8px;
   justify-content: center;
-  gap: 5px;
-}
-.google_play {
-  width: 124px;
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-}
-
-.app_gallery {
-  width: 124px;
-  padding: 5px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
 }
 
 .social_net {
@@ -91,4 +76,93 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 16px;
+}
+
+.contact_phone_world {
+  border-bottom: solid 1px #f76835;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 5px;
+}
+
+.contact_phone_world_info {
+  margin-top: 12px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.footer_navbar {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.footer_navbar_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style-type: none;
+}
+
+.footer_line {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  height: 1px;
+  background-color: #e6e6e6;
+}
+
+.footer_faq_list {
+  display: flex;
+  max-width: 980px;
+  gap: 32px;
+}
+
+.footer_faq_list_item {
+  /* max-width: fit-content; */
+  list-style-type: none;
+}
+
+@media screen and (max-width: 980px) {
+  .footer {
+    height: 586px;
+    justify-content: start;
+  }
+  .footer_wrapper {
+    margin: 16px;
+    gap: 32px
+  }
+  .contact_us {
+    flex-direction: column-reverse;
+  }
+  .store_path_title{
+    display: none;
+  }
+  .contacts {
+    flex-direction: column;
+    gap: 12px;
+  }
+  .footer_line{
+    display: none;
+  }
+  .footer_navbar {
+    gap: 48px;
+  }
+  .footer_navbar_list{
+    width: 140px;
+    gap: 16px;
+  }
+  .footer_faq{
+    /* background-color: #fff; */
+    padding: 24px 16px;
+    width: 100%;
+    height: 160px;
+  }
+  .footer_faq_list{
+
+    flex-direction: column;
+    gap: 16px;
+  }
 }

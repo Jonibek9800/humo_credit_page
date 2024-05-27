@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./footer.module.css";
 
 export default function Footer() {
@@ -8,15 +9,14 @@ export default function Footer() {
           <div className={styles.store_path}>
             <h5 className={styles.store_path_title}>Приложение</h5>
             <div className={styles.store_path_content}>
-              <button className={styles.app_store}>
-                <img src="/app_store.png" alt="app store" /> App Store
+              <button className={`${styles.store_btn}`}>
+                <img src="/app_store.png" alt="app store" />
               </button>
-              <button className={styles.google_play}>
+              <button className={styles.store_btn}>
                 <img src="/google_play.png" alt="google play" />
-                Google Play
               </button>
-              <button className={styles.app_gallery}>
-                <img src="/app_gallery.png" alt="App Gallery" /> AppGallery
+              <button className={styles.store_btn}>
+                <img src="/app_gallery.png" alt="App Gallery" />
               </button>
             </div>
           </div>
@@ -59,6 +59,8 @@ export default function Footer() {
             <li className={styles.footer_navbar_list_item}>Вакансии</li>
             <li className={styles.footer_navbar_list_item}>Карты Visa</li>
             <li className={styles.footer_navbar_list_item}>Кредиты</li>
+            </ul>
+            <ul className={styles.footer_navbar_list}>
             <li className={styles.footer_navbar_list_item}>Вклад — Сарчашма</li>
             <li className={styles.footer_navbar_list_item}>Валюты</li>
             <li className={styles.footer_navbar_list_item}>
@@ -66,7 +68,27 @@ export default function Footer() {
             </li>
           </ul>
         </div>
-        <div className={styles.footer_faq}></div>
+        <hr className={styles.footer_line} />
+        <div className={styles.footer_faq}>
+          <ul className={styles.footer_faq_list}>
+            <li className={styles.footer_faq_list_item}>
+              <Link className={styles.footer_faq_list_item_link} href={"/"}>
+                © 2022 ЗАО МДО «Хумо»
+              </Link>
+            </li>
+            <li className={styles.footer_faq_list_item}>
+              <Link className={styles.footer_faq_list_item_link} href={"/"}>
+                Лицензия НБТ №0000077 от 24 мая 2017 г.
+              </Link>
+            </li>
+            <li className={styles.footer_faq_list_item}>
+              <Link className={styles.footer_faq_list_item_link} href={"/"}>
+                ЗАО МДО «Хумо» микрофинансовая организация в Таджикистане,
+                обслуживающая более 100 000 клиентов.{" "}
+              </Link>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   );
