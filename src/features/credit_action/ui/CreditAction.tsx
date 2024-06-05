@@ -7,8 +7,15 @@ export default function CreditAction() {
   const handleRequest = () => {};
   return (
     <div className={styles.credit_actions}>
-      <ElevatedButton classes={styles.credit_action_send} onClick={handleRequest} title="Оставить заявку" />
-      <TextButton classes={styles.info_action} onClick={handleRequest} title="Подробнее" />
+      <ElevatedButton
+        onClick={handleRequest}
+        title="Оставить заявку"
+      />
+      <TextButton
+        classes={styles.info_action}
+        onClick={handleRequest}
+        title="Подробнее"
+      />
     </div>
   );
 }

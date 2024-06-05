@@ -1,3 +1,3 @@
-import Tabs from './Tabs.tsx'
+import Tabs from './Tabs'
 
 export { Tabs }

@@ -3,4 +3,17 @@
   background-color: transparent;
   padding: 20px 12px;
   cursor: pointer;
+  border: 1px solid black;
+}
+
+.text_button_wrapper {
+  width: 129px;
+}
+
+@media screen and (max-width: 450px) {
+  .text_button_wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
 }

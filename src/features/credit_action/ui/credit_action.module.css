@@ -1,7 +1,10 @@
 .credit_actions {
   display: flex;
-  max-width: 526px;
-  height: 48px;
+  width: 100%;
+
+  /* max-width: 526px; */
+  gap: 24px;
+  /* height: 48px; */
 }
 
 .credit_action_send {
@@ -24,7 +27,7 @@
   }
 
   .credit_action_send {
-    width: 96%;
+    width: 80%;
     margin: 0px;
     /* margin: 0px 20px; */
   }

@@ -2,6 +2,7 @@ import { instance } from "@/shared/init_axios";
 import { CreditGoodToKnow } from "@/widgets/credit_good_to_know";
 import { CreditHeader } from "@/widgets/credit_header";
 import { CreditTypeCard, ICreditType } from "@/widgets/credit_type_card";
+import { Pagination } from "humo-ui";
 
 interface IResponseProps {
   data: ICreditType[];
@@ -458,6 +459,11 @@ export default async function Home() {
           ))}
 
           <CreditGoodToKnow />
+          {/* <Pagination
+            currentPage={2}
+            setCurrentPage={() => console.log()}
+            totalPages={25}
+          /> */}
         </>
       )}
     </main>
