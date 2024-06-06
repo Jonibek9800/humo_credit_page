@@ -1,7 +1,7 @@
 .credit_actions {
   display: flex;
   width: 100%;
-
+  padding: 10px;
   /* max-width: 526px; */
   gap: 24px;
   /* height: 48px; */

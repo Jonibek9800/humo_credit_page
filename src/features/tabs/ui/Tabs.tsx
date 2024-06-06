@@ -27,6 +27,7 @@ const TabsBar = () => {
         return (
           <Tabs.Item key={tab.value} value={tab.value}>
             {tab.lable}
+            
           </Tabs.Item>
         );
       })}

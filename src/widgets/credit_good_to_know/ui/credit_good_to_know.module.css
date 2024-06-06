@@ -10,14 +10,6 @@
   max-height: 336px;
 } */
 
-.credit_good_to_know_wrap {
-  display: flex;
-  overflow-x: scroll;
-  justify-content: start;
-  /* width: 768px; */
-  padding: 3px 0px;
-}
-
 .good_to_know_title {
   font-size: 28px;
   font-weight: 600;
@@ -53,14 +45,14 @@
   line-height: 24px;
   color: #171717;
 }
-/* @media screen and (max-width: 769px) {
-  /* .credit_good_to_know_wrap {
+@media screen and (max-width: 769px) {
+  .credit_good_to_know_wrap {
     display: flex;
     overflow: scroll;
     justify-content: start;
-    width: 650px;
-  } */
-/* } */
+    /* width: 650px; */
+  }
+}
 @media screen and (max-width: 450px) {
   .crdit_good_to_know_container {
     gap: 20px;

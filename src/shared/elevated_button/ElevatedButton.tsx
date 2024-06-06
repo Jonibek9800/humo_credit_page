@@ -12,17 +12,9 @@ const ElevatedButton = ({
   onClick: MouseEventHandler<HTMLButtonElement>;
 }) => {
   return (
-    <div className={styles.elevated_button_wrapper}>
-      <Button
-        style={{
-          border: "solid red 1px",
-        }}
-        onClick={onClick}
-        w="100%"
-      >
-        {title}
-      </Button>
-    </div>
+    <Button className={styles.elevated_button} onClick={onClick}>
+      {title}
+    </Button>
   );
 };
 

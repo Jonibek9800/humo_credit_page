@@ -14,12 +14,8 @@ const TextButton = ({
   classes: string;
 }) => {
   return (
-    <div className={styles.text_button_wrapper}>
       <Button
-        style={{
-          border: "1px solid red",
-        }}
-        w="100%"
+
         appearance="transparent"
         {...attrs}
         onClick={onClick}
@@ -27,7 +23,6 @@ const TextButton = ({
       >
         {title}
       </Button>
-    </div>
   );
 };
 
